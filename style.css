@@ -1,0 +1,464 @@
+
+/* Navigation Menu Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #243b41;
+    display: flex;
+    justify-content: space-between; /* Space between logo and nav items */
+    align-items: center; /* Center items vertically */
+    height: 70px;
+    padding: 0 20px; /* Add padding to the sides */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    width: 100%; /* Ensure the ul takes up full width */
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: cyan;
+}
+
+#logo-container {
+    margin-right: auto; 
+}
+
+#logo {
+    height: 60px; 
+    width: 110px; 
+}
+
+/* section-1 */
+#sec-1 div{
+    background-image: url(images/2best.jpg);
+    height: 700px;
+    margin-top: -35px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sec-1 div h1{
+    font-size: 45px;
+    padding-top: 200px;
+}
+#sec-1 div h4{
+    font-size: 30px;
+    color: rgb(16, 68, 255);
+}
+#sec-1 div h5{
+    font-size: 25px;
+    color: rgb(255, 51, 15);
+}
+/* Button styles */
+#sec-1 div button {
+    background-color: #0de1da;
+    color: rgb(0, 0, 0);
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+#sec-1 div button a{
+    text-decoration: none;
+}
+
+#sec-1 div button:hover {
+    background-color: #f77b29;
+    
+}
+
+/*------------about------*/
+    #about{
+    padding: 80px 0;
+    
+    }
+    #about{
+        background-image: url(images/3img.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    p{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    }
+    .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+    .abt-col-1{
+    flex-basis: 35%;
+    }
+    .abt-col-1 img{
+    width: 100%;
+    border-radius: 30px;
+    }
+    .abt-col-2 {
+    flex-basis: 62%;
+    }
+    .subtitle {
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    }
+    .tab-title {
+    display: flex;
+    margin: 20px 0 40px;
+    }
+    .tab-links {
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    }
+    .tab-links::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+    }
+    .tab-links.active-link::after {
+    width: 50%;
+    }
+    .tab-contents ul li {
+    list-style: none;
+    margin: 10px 0;
+    }
+    .tab-contents ul li span {
+    color: #270bff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    }
+    .tab-contents {
+    display: none;
+    }
+    .tab-contents.active-tab {
+    display: block;
+    }
+    form{
+    margin-left: 50px;
+    }
+    button{
+    background-color: #aff328;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(28, 13, 232);
+    font-weight: bold;
+    cursor: pointer;
+    
+    } 
+    button a{
+    text-decoration: none;
+    list-style: none;
+    } 
+    .contact-right{
+    margin-left: 800px;
+    width: 700px;
+    border: 2px solid rebeccapurple;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    height: 300px;
+    margin-bottom: 20px;
+    } 
+    form input,textarea{
+    height: 30px;
+    width: 500px;
+    border-color: aqua;
+    border: 2px solid cyan;
+    font-weight: bold;
+    }
+    button:hover{
+    background-color: aqua;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    }
+    
+/* Gallery section */
+/* General styling for the section */
+#mygall {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#mygall h1 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #333;
+}
+
+#mygall h2 {
+    font-size: 1.5em;
+    color: #0e368e;
+}
+
+/* Table styling */
+#mygall table {
+    border: none; /* Removed border color */
+    border-spacing: 15px;
+    margin: 0 auto;
+}
+
+#mygall td {
+    text-align: center;
+    vertical-align: top;
+    padding: 15px;
+}
+
+/* Image wrapper styling */
+.image-wrapper {
+    padding: 10px;
+    background-color: #ffffff; /* Add your desired margin color here */
+    display: inline-block;
+    border-radius: 10px; /* Optional: rounds the colored margin */
+}
+
+/* Image styling */
+#mygall table img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Caption styling */
+#mygall table h2 {
+    text-align: center;
+    margin: 10px 0 0 0;
+    font-size: 1em; /* Decreased font size */
+}
+
+
+
+/* project */
+#project{
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#project {
+    padding: 20px;
+}
+
+#project h1{
+    color: rgb(7, 4, 4);
+    font-size: 40px;
+}
+
+#project table {
+    border-spacing: 7px;
+    margin: 0 auto;
+}
+
+#project table img {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.project-cell {
+    border: 3px solid transparent;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.project-content {
+    padding: 15px;
+    text-align: center; /* Center content */
+}
+
+.project-content:hover {
+    border-color: rgb(27, 122, 255);
+}
+
+.read-more-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    display: block; /* Display as block to occupy full width */
+    margin: 10px auto; 
+}
+
+.hidden {
+    display: none;
+}
+
+/* contact form */
+
+#contact {
+    width: 100%;
+    /* height: 90%; */
+    /* max-width: 600px; */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-image: url(images/bg.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contact-form-container {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; 
+}
+
+.contact-form-container h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+#button-2 {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#button-2:hover {
+    background-color: #0056b3;
+}
+
+/* footer css */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-left, .footer-right {
+    flex: 1;
+}
+
+.footer-left h3, .footer-right h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-left p, .footer-right .social-icons {
+    color: #ccc;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.footer-bottom {
+    background-color: #343333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #ccc;
+    font-size: 16px;
+}
+

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="logo-container"><img src="https://logos.textgiraffe.com/logos/logo-name/Manjula-designstyle-cartoon-m.png" alt="Logo" id="logo"></li> 
+                <li><a href="#sec-1">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="https://drive.google.com/file/d/195uZB8u8sImFkZIEjTnCN5k7z778OTY-/view?usp=sharing">Resume</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- welcome sec -->
+        <section id="sec-1">
+            <div>
+                <h1 id="hed-1">Welcome To My Page</h1>
+                <h4>Hey, I'am Manjula</h4>
+                <h5>I'am a Full Stack Web Developer</h5>
+               <!-- <button class="view-work-btn">View My Work</button> -->
+                <button><a href="#project">View My Work</a></button>
+                 <!-- <button>hello</button> -->
+            </div>
+        </section>
+
+         <!-- about sec -->
+        <section>
+       
+        <div id="about" > 
+            <div class="container" id="ed">
+                <div class="row">
+                    <div class="abt-col-1">
+                        <img src="https://www.pngitem.com/pimgs/m/256-2563233_business-woman-transparent-background-hd-png-download.png" alt="" >
+                    </div>
+                    <div class="abt-col-2">
+                        <h1 class="subtitle">About me:</h1><br>
+                        <p>Hello, I'm Manjula, a passionate and dedicated computer science enthusiast with a strong academic background. <br>
+                            As a recent graduate with a degree in Computer Science, I have honed my skills in various programming languages and technologies, <br>
+                            and I'm excited to embark on a rewarding journey in the world of software development.<br>
+                            I'm excited to contribute my skills and enthusiasm to a dynamic software development team.<br> 
+                            If you're looking for a motivated and adaptable team player who is ready to make an impact, let's connect!</p>
+
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+                            <p class="tab-links" onclick="opentab(event, 'experience')">Experience</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Creating responsive, interactive websites using HTML, CSS, JavaScript, and backend technologies.</li>
+                                <li><span>Python & Django</span><br>Building robust, scalable web applications with Python and the Django framework.</li>
+                                <li><span>SQL</span><br>Managing and querying relational databases for efficient data storage and retrieval.</li>
+                            </ul>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2019-2023</span><br> Completed B.Tech from Tadipatri Engineering college in the field of <b>CSE</b> with 79%</li>
+                                <li><span>2019</span><br> Attended Intermediate from Sri Padmavathi Women's Junior College with 91%</li>
+                                <li><span>2017</span><br> Completed SSC from Sri Sai Teja E/M School with 93%</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022</span><br>Python with ML Training at Master's Technologies.</li>
+                                <li><span>2023</span><br> Completed Full Stack Web development Training at I.T-Vedant.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        </section>
+
+        <!-- projects -->
+        <section id="project">
+            <center>
+                <h1>My Projects</h1>
+                <table>
+                    <tr>
+                        <td class="project-cell">
+                            <div class="project-content">
+                                <a href="https://www.figma.com/design/52Leuc3Im3eZrTFw2sNNBG/foodieapp?node-id=0-1&t=WoDWiy3EDG25ETkH-1">
+                                    <img src="images/foodapp.png" alt="Food App Interface">
+                                </a>
+                                <h2>Food App Interface</h2>
+                                <p class="more-text hidden">"The food app interface in Figma combines intuitive navigation with visually appealing elements, ensuring an engaging and user-friendly experience"<br> To know more about the interface click the above image and run.</p>
+                            </div>
+                            <button class="read-more-btn">Read More</button>
+                        </td>
+                        <!-- 2nd one -->
+                        <td class="project-cell">
+                            <div class="project-content">
+                                <a href="https://www.figma.com/design/7ejSaF0oFfSxWXUu1EzOD7/MyPortfolio?node-id=0-1&t=w4lIVJW596DvcMa4-1">
+                                    <img src="images/mine.png" alt="My Interface">
+                                </a>
+                                <h2>Little About Me</h2>
+                                <p class="more-text hidden">
+                                    "Showcasing my diverse skills in UI/UX design and web development through innovative projects and intuitive interfaces."<br> To know more about the my interface click the above image and run</p>
+                            </div>
+                            <button class="read-more-btn">Read More</button>
+                        </td>
+                        <!-- 3rd one -->
+                        <td class="project-cell">
+                            <div class="project-content">
+                                <a href="https://github.com/manjula257/E-commerce-Application">
+                                    <img src="images/ecommerce.png" alt="E-commerce Application">
+                                </a>
+                                <h2>E-commerce Application</h2>
+                                <p class="more-text hidden">
+                                    "Crafting a comprehensive e-commerce application with user-friendly registration, secure login, seamless cart management, advanced filtering options, integrated payment gateway, and enhanced user experience."<br> To know more about the my interface click the above image and run</p>
+                            </div>
+                            <button class="read-more-btn">Read More</button>
+                        </td>
+                    </tr>
+                    <!-- 2nd row -->
+                    <tr>
+                        <td class="project-cell">
+                            <div class="project-content">
+                                    <img src="images/stock.jpg" alt="Food App Interface">
+                                
+                                <h2>Stock Price Prediction Using ML</h2>
+                                <p class="more-text hidden">"Stock market prediction is an act of trying to determine the future value of a stock or <br> 
+                                    other financial instrument traded on a financial exchange.<br> Uses a machine learning technique called 
+                                    Support Vector Machine to predict the stock prices more accurately"</p>
+                            </div>
+                            <button class="read-more-btn">Read More</button>
+                        </td>
+                        
+                        <td class="project-cell">
+                            <div class="project-content">
+                                    <img src="images/fog.png" alt="Food App Interface">
+                                
+                                <h2>Three-Layer Privacy Preserving <br>Using Fog Computing</h2>
+                                <p class="more-text hidden">" Data has been partitioned and stored in three storage servers such as cloud server, fog 
+                                    server and local server by hash- Solomon code algorithm. <br>One important thing is that the third party 
+                                    don’t have the knowledge about our data partitioning."</p>
+                            </div>
+                            <button class="read-more-btn">Read More</button>
+                        </td>
+
+                        <td class="project-cell">
+                            <div class="project-content">
+                                <a href="https://manjula257.github.io/Bekary-Apllication/">
+                                    <img src="images/Screenshot (341).png" alt="Bekary Application">
+                                </a>
+                                <h2>Stunning Bekary Application</h2>
+                                <p class="more-text hidden">"I created a Bekary Appliation with the use of HTML,CSS and Bootstrap, ChatGpt and with the stunning images."</p>
+                            </div>
+                            <button class="read-more-btn">Read More</button>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </section>
+        <!-- gallary sec -->
+        <section id="mygall">
+            <center>
+                <table>
+                    <h1>My Extra Curricular Hobby-Photography</h1>
+                    <h2>✨Some of my captures✨</h2>
+                    <tr class="row1">
+                        <td>
+                            <div class="image-wrapper">
+                                <img src="images/dog.jpg" alt="">
+                            </div>
+                            <h2>Dog</h2>
+                        </td>
+                        <td>
+                            <div class="image-wrapper">
+                                <img src="images/clg.jpg" alt="">
+                            </div>
+                            <h2>My clg view</h2>
+                        </td>
+                        <td>
+                            <div class="image-wrapper">
+                                <img src="images/moon.jpg" alt="">
+                            </div>
+                            <h2>Moon</h2>
+                        </td>
+                        <td>
+                            <div class="image-wrapper">
+                                <img src="images/sky.jpg" alt="">
+                            </div>
+                            <h2>Sky</h2>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </section>
+        <!--contact form  -->
+        <section id="contact">
+            <div class="contact-form-container">
+                <h2>Contact Us</h2>
+                <form action="submit_form.php" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button id="button-2" type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+<!-- footer sec -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <h3>Get in Touch</h3>
+                <p>Email: manjulamukkamalla13@gmail.com</p>
+                <p>Phone: +91 9876543210</p>
+            </div>
+            <div class="footer-right">
+                <h3>Follow Us On</h3>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjvzC_QRv6moAhgNb5C6e3yicKgFND1g2RwA&s" alt="Facebook"></a>
+                    <a href="#" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwYG4azEl9wGw5TJHa2ct7hKic_VsexIUDlQ&s" alt="Twitter"></a>
+                    <a href="#" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="Instagram"></a>
+                    <a href="#" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png" alt="LinkedIn"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; Dveloped by Manjula-2024💙. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- js code -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(event, tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        // readmore button code
+      
+        document.addEventListener('DOMContentLoaded', function() {
+            var readMoreButtons = document.querySelectorAll('.read-more-btn');
+            var moreTextElements = document.querySelectorAll('.more-text');
+
+            readMoreButtons.forEach(function(button, index) {
+                button.addEventListener('click', function() {
+                    moreTextElements[index].classList.toggle('hidden');
+                    if (moreTextElements[index].classList.contains('hidden')) {
+                        button.textContent = 'Read More';
+                    } else {
+                        button.textContent = 'Read Less';
+                    }
+                });
+            });
+        });
+
+   
+    </script>
+</body>
+</html>
